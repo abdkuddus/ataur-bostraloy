@@ -1,8 +1,27 @@
+body{
+	background-image:url(_MG_9381.jpg);
+	background-size:cover;
+}
 .bg-lightest {
     background-color: #FFFFFF !important;
 }
 
-
+.top5{
+	background: linear-gradient(blue,red);
+	height:120px;
+	color:yellow
+}
+.top5:hover{
+ background: linear-gradient(red, blue);
+ color:red;
+}
+.footer{
+	background: linear-gradient(gray,yellow,blue)
+}
+.footer:hover{
+ background: linear-gradient(green,yellow,red);
+ border:2px solid green;
+}
 /*logo css start*/
 
 .logo-radius {
